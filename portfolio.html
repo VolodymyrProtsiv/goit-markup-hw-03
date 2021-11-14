@@ -4,45 +4,51 @@
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Портфолио</title>
-            <link rel="stylesheet" href="./css/style.css">
+            <title>Студия</title>
+        
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            <link
+                href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
                 rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+                integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="./css/style.css">
         </head>
+        
         <body>
             <!--Header-->
-        <!--Header-->
-        <header class="header">
-                <nav>
-                    <!--Logo nav-->
-                    <a href="./index.html" class="logo link">Web
-                        <span class="logo-var">Studio</span></a>
-                    <ul class="list">
-                        <li>
-                            <a href="./index.html" class="list-item link">Студия</a>
+            <header class="header">
+                <div class="conteiner header-conteiner">
+                    <nav class="nav">
+                        <!--Logo nav-->
+                        <a href="./index.html" class="logo link nav-logo">Web
+                            <span class="logo-var">Studio</span></a>
+                        <ul class=" nav-list list">
+                            <li class="nav-list-item">
+                                <a href="" class="list-item active link">Студия</a>
+                            </li>
+                            <li class="nav-list-item">
+                                <a href="./portfolio.html" class="list-item link">Портфолио</a>
+                            </li>
+                            <li class="nav-list-item">
+                                <a href="" class="list-item link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--Header contact-->
+                    <ul class="list contact-list">
+                        <li class="contact-list-item">
+                            <a href="mailto:info@devstudio.com" class="list-item list-item-contact link">
+                                info@devstudio.com</a>
                         </li>
-                        <li>
-                            <a href="./portfolio.html" class="list-item active link">Портфолио</a>
-                        </li>
-                        <li>
-                            <a href="" class="list-item link">Контакты</a>
+                        <li class="contact-list-item">
+                            <a href="" class="list-item list-item-contact link">
+                                +38 096 111 11 11</a>
                         </li>
                     </ul>
-
-                </nav>
-                <!--Header contact-->
-                <ul class="list">
-                    <li>
-                        <a href="mailto:info@devstudio.com" class="list-item list-item-contact link">
-                            info@devstudio.com</a>
-                    </li>
-                    <li>
-                        <!-- "href=tel:+38 096 111 11 11" валідатор каже що помилка -->
-                        <a href="" class="list-item list-item-contact link">+38 096 111 11 11</a> 
-                    </li>
-                </ul>
+                </div>
             </header>
             <!--Filtr Button-->
             <section class="filtr">
