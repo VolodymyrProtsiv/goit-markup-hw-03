@@ -20,6 +20,7 @@
   --link-col: rgba(255, 255, 255, 0.6);
   --br-solid-col: #a1a1a1;
   --sw-btn: rgba(0, 0, 0, 0.15);
+  --hed-sol-col: #ececec;
 }
 h1,
 h2,
@@ -65,7 +66,7 @@ a {
   width: 1200px;
   padding: 0px 15px;
   margin: 0 auto;
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
 }
 
 .after-conteiner {
@@ -133,6 +134,7 @@ a {
 /* Header */
 .header {
   background-color: var(--bg-pr-col);
+  border-bottom: 1px solid var(--hed-sol-col);
 }
 
 .header-conteiner {
@@ -140,7 +142,6 @@ a {
   justify-content: space-between;
   padding-bottom: 24px;
   padding-top: 24px;
-  border-bottom: 1px var(--br-solid-col);
 }
 
 .nav {
@@ -358,9 +359,18 @@ a {
 .filtr {
   background-color: var(--bg-pr-col);
 }
+.filtr-conteiner {
+}
 .filtr-list {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 50px;
+  margin-right: -8px;
+}
+.filtr-list-item {
+  flex-basis: calc(100% / 5 -8px);
+  margin-right: 8px;
 }
 /* Btn-portfolio */
 
@@ -382,10 +392,10 @@ a {
   color: var(--bg-pr-col);
   box-shadow: 0px 4px 4px var(--sw-btn);
 }
-.btn-active {
+/* .btn-active {
   background-color: var(--accent-col);
   color: var(--bg-pr-col);
-}
+} */
 
 /* Portfolio list section */
 .pl-tittle-list {
