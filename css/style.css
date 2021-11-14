@@ -20,12 +20,34 @@
   --link-col: rgba(255, 255, 255, 0.6);
   --br-solid-col: #a1a1a1;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.conteiner {
+  width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+  border: 1px solid tomato;
+}
 
 * {
   font-family: "Roboto", sans-serif;
   color: var(--pr-col-txt);
-  /* padding: 0; 
-  margin: 0;*/
+  padding: 0;
+  margin: 0;
 }
 
 .list {
@@ -93,6 +115,21 @@
 /* Header */
 .header {
   background-color: var(--bg-pr-col);
+}
+
+.nav {
+  display: flex;
+  border: 1px solid tomato;
+}
+
+.header-conteiner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-list {
+  display: flex;
+  border: 1px solid tomato;
 }
 .list-item-contact {
   color: var(--second-col-txt);
