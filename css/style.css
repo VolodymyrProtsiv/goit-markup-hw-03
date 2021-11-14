@@ -58,13 +58,13 @@ img {
 
 .conteiner {
   width: 1200px;
-  padding: 0px 15px;
+
   margin: 0 auto;
   border: 1px solid tomato;
 }
 
 .after-conteiner {
-  padding: 94px 0px;
+  padding: 94px 15px;
 }
 
 .list {
@@ -188,6 +188,7 @@ img {
 /* Skills-section */
 .skills-list {
   display: flex;
+  border: 1px solid tomato;
 }
 .skills-list-items {
 }
@@ -255,7 +256,7 @@ img {
   background-color: var(--bg-second-col);
 }
 .footer-conteiner {
-  padding: 60px 0px;
+  padding: 60px 15px;
 }
 .address {
   font-style: normal;
