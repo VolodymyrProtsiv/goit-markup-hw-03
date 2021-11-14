@@ -36,6 +36,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+a {
+  display: block;
+  margin: 0;
+}
 
 * {
   font-family: "Roboto", sans-serif;
