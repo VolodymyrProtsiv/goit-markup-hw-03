@@ -43,6 +43,18 @@ img {
   padding: 0;
   margin: 0;
 }
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 
 .conteiner {
   width: 1200px;
@@ -174,6 +186,13 @@ img {
 }
 
 /* Skills-section */
+.skills-list {
+  display: flex;
+}
+.skills-list-items {
+  min-width: 270px;
+  margin-right: 30px;
+}
 
 .skills-list-items-tittle {
   background-color: var(--bg-lightgrey-coll);
@@ -183,6 +202,7 @@ img {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .skills-list-items-par {
   font-weight: normal;
