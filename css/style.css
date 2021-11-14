@@ -36,12 +36,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-.conteiner {
-  width: 1200px;
-  padding: 0px 15px;
-  margin: 0 auto;
-  border: 1px solid tomato;
-}
 
 * {
   font-family: "Roboto", sans-serif;
@@ -50,11 +44,23 @@ img {
   margin: 0;
 }
 
+.conteiner {
+  width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+  border: 1px solid tomato;
+}
+
+.after-conteiner {
+  padding: 94px 0px;
+}
+
 .list {
   list-style: none;
 }
 
 .link {
+  display: flex;
   text-decoration: none;
 }
 
@@ -74,6 +80,7 @@ img {
   line-height: 1.2x;
   letter-spacing: 0.03em;
   color: var(--pr-col-txt);
+  display: block;
 }
 .logo-footer {
   font-family: Raleway;
@@ -139,6 +146,13 @@ img {
 }
 
 /* Hero-section */
+.hero-conteiner {
+  padding: 200px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .hero-sect {
   background-color: var(--bg-second-col);
 }
@@ -150,9 +164,17 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  max-width: 696px;
+  margin-bottom: 30px;
+}
+
+.btn-hero {
+  padding: 10px 32px;
+  min-width: 200px;
 }
 
 /* Skills-section */
+
 .skills-list-items-tittle {
   background-color: var(--bg-lightgrey-coll);
   color: var(--pr-col-txt);
@@ -170,6 +192,9 @@ img {
   color: var(--second-col-txt);
 }
 /* Section What we do */
+.do-conteiner {
+  padding: 94px 0px;
+}
 .do-sct {
   background-color: var(--bg-pr-col);
 }
@@ -182,6 +207,9 @@ img {
 }
 
 /* Section Team*/
+.teams {
+  padding: 94px, 0px;
+}
 .sct-team {
   background-color: var(--bg-lightgrey-col);
 }
@@ -205,6 +233,9 @@ img {
 /* Footer */
 .footer {
   background-color: var(--bg-second-col);
+}
+.footer-conteiner {
+  padding: 60px 0px;
 }
 .address {
   font-style: normal;
