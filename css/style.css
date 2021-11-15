@@ -39,17 +39,19 @@ img {
   max-width: 100%;
   height: auto;
 }
-a {
-  display: block;
-  margin: 0;
-}
 
-* {
+body {
   font-family: "Roboto", sans-serif;
   color: var(--pr-col-txt);
-  padding: 0;
-  margin: 0;
 }
+
+.conteiner {
+  width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+  border: 1px solid tomat;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -61,13 +63,6 @@ a {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
-
-.conteiner {
-  width: 1200px;
-  padding: 0px 15px;
-  margin: 0 auto;
-  /* border: 1px solid tomato; */
 }
 
 .after-conteiner {
@@ -91,16 +86,19 @@ a {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+
   color: var(--accent-col);
 }
 .logo-var {
+  display: block;
+
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2x;
   letter-spacing: 0.03em;
+
   color: var(--pr-col-txt);
-  display: block;
 }
 
 /* List */
@@ -140,9 +138,6 @@ a {
 
 .header-conteiner {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 
 .nav {
@@ -156,28 +151,26 @@ a {
 
 .nav-list {
   display: flex;
-  flex-wrap: wrap;
-  margin-right: -50px;
 }
 
-.nav-list-item {
-  flex-basis: calc(100% / 3 -50px);
+.nav-list-item :not(:last-child) {
   margin-right: 50px;
 }
 
 .contact-list {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-right: -50px;
+  margin-left: auto;
 }
 
-.contact-list-item {
-  flex-basis: calc(100% / 2 -50px);
+.contact-list-item:not(:last-child) {
   margin-right: 50px;
 }
 
 .list-item-contact {
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
   color: var(--second-col-txt);
 }
 .active {
