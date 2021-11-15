@@ -185,8 +185,6 @@ body {
 /* Hero-section */
 
 .hero-sect {
-  padding: 200px 0px;
-
   background-color: var(--bg-second-col);
 }
 .hero-conteiner {
@@ -215,26 +213,25 @@ body {
 /* Skills-section */
 .skills-list {
   display: flex;
-  /* flex-wrap: wrap; */
-  margin-right: -30px;
-}
-
-.skills-list-items {
-  flex-basis: calc(100% / 4 -30px);
-  margin-right: 30px;
   /* border: 1px solid tomato; */
 }
 
+.skills-list-items:not(:last-child) {
+  margin-right: 30px;
+}
+.skills-list-items > div {
+  width: 270px;
+}
+
 .skills-list-items-tittle {
-  background-color: var(--bg-lightgrey-coll);
-  color: var(--pr-col-txt);
   font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 10px;
-  width: 270px;
+
+  background-color: var(--bg-lightgrey-coll);
+  color: var(--pr-col-txt);
 }
 .skills-list-items-par {
   font-weight: normal;
@@ -242,7 +239,6 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--second-col-txt);
-  width: 270px;
 }
 
 /* Section What we do */
@@ -255,11 +251,10 @@ body {
 .do-sct-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
 }
-.do-sct-list-items {
-  flex-basis: calc(100% / 3 - 30px);
+.do-sct-list-items:not(:last-child) {
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 /* Section Team*/
