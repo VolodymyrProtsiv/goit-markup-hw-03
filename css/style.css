@@ -183,26 +183,28 @@ body {
 }
 
 /* Hero-section */
-.hero-conteiner {
-  padding: 200px 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 .hero-sect {
+  padding: 200px 0px;
+
   background-color: var(--bg-second-col);
 }
+.hero-conteiner {
+  text-align: center;
+}
 .hero-sect-tittle {
-  color: var(--bg-pr-col);
+  margin: auto;
+  width: 696px;
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  max-width: 696px;
-  margin-bottom: 30px;
+
+  color: var(--bg-pr-col);
 }
 
 .btn-hero {
