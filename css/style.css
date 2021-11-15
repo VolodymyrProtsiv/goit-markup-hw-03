@@ -21,6 +21,7 @@
   --br-solid-col: #a1a1a1;
   --sw-btn: rgba(0, 0, 0, 0.15);
   --hed-sol-col: #ececec;
+  --sl-filtr-col: #eeeeee;
 }
 h1,
 h2,
@@ -214,14 +215,14 @@ a {
 /* Skills-section */
 .skills-list {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin-right: -30px;
 }
 
 .skills-list-items {
   flex-basis: calc(100% / 4 -30px);
   margin-right: 30px;
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
 }
 
 .skills-list-items-tittle {
@@ -279,7 +280,7 @@ a {
 
 .sct-team-list {
   display: flex;
-
+  flex-wrap: wrap;
   margin-right: -30px;
 }
 .team-list-item {
@@ -400,18 +401,41 @@ a {
 /* Portfolio list section */
 .pl-tittle-list {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -30px;
 }
 
-.pl-tittle-list-item {
+.pl-tittle-list-item-link {
   display: flex;
+  flex-direction: column;
+  flex-basis: calc(100% / 3 -30px);
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border: 1px solid var(--sl-filtr-col);
+
+  /* border: 1px solid tomato; */
 }
+
+.pl-tittle-list-item-img {
+  display: flex;
+  /* border: 1px solid tomato; */
+}
+
+.pl-conteiner {
+  display: flex;
+  flex-direction: column;
+  padding: 13px 0;
+  margin-left: 22px;
+}
+
 .pl-tittle-list-item-tittle {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--pr-col-txt);
+  margin-bottom: 13px;
 }
 .pl-tittle-list-item-par {
   font-weight: normal;
