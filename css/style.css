@@ -271,7 +271,7 @@ body {
 
 /* Section Team*/
 .team {
-  padding: 94px, 0px;
+  padding: 94px 0px;
   
   background-color: var(--bg-lightgrey-col);
 }
@@ -327,11 +327,14 @@ body {
 
 /* Footer */
 .footer {
+  padding: 60px 0px;
   background-color: var(--bg-second-col);
 }
-.footer-conteiner {
-  padding: 60px 15px;
+.footer-pr-logo{
+  margin-bottom: 20px;
+  background-color: violet;
 }
+
 .logo-footer {
   font-family: Raleway;
   font-weight: bold;
@@ -339,7 +342,7 @@ body {
   line-height: 1.2x;
   letter-spacing: 0.03em;
   color: var(--bg-pr-col);
-  margin-bottom: 20px;
+  
 }
 .address {
   font-style: normal;
