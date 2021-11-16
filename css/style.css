@@ -65,10 +65,10 @@ body {
   margin: -1px;
 }
 
-.after-conteiner {
+/* .after-conteiner {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 .list {
   list-style: none;
@@ -185,6 +185,7 @@ body {
 /* Hero-section */
 
 .hero-sect {
+  padding: 200px 0px;
   background-color: var(--bg-second-col);
 }
 .hero-conteiner {
@@ -211,6 +212,10 @@ body {
 }
 
 /* Skills-section */
+.skills{
+  padding: 94px 0px;
+}
+
 .skills-list {
   display: flex;
   /* border: 1px solid tomato; */
@@ -243,7 +248,7 @@ body {
 
 /* Section What we do */
 .do-conteiner {
-  padding: 94px 0px;
+  padding-bottom: 94px;
 }
 .do-sct {
   background-color: var(--bg-pr-col);
@@ -265,9 +270,12 @@ body {
 }
 
 /* Section Team*/
-.teams {
+.team {
   padding: 94px, 0px;
+  
+  background-color: var(--bg-lightgrey-col);
 }
+
 .sct-tittle {
   font-weight: bold;
   font-size: 36px;
@@ -276,9 +284,7 @@ body {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.sct-team {
-  background-color: var(--bg-lightgrey-col);
-}
+
 
 .sct-team-list {
   display: flex;
