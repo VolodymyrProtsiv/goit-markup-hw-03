@@ -49,7 +49,7 @@ body {
   width: 1200px;
   padding: 0px 15px;
   margin: 0 auto;
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
 }
 
 .visually-hidden {
@@ -153,11 +153,11 @@ body {
   display: flex;
 }
 
-.nav-list-item > .list-item {
+/* .nav-list-item .list-item {
   display: block;
   padding-bottom: 35px;
   padding-top: 35px;
-}
+} */
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
