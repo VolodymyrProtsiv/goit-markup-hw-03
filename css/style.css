@@ -330,9 +330,8 @@ body {
   padding: 60px 0px;
   background-color: var(--bg-second-col);
 }
-.footer-pr-logo{
+.f-logo{
   margin-bottom: 20px;
-  background-color: violet;
 }
 
 .logo-footer {
@@ -359,10 +358,14 @@ body {
 .foot-address {
   font-style: normal;
 }
+.f-list-item:not(:last-child){
+  margin-bottom: 9px;
+} 
+
 .footer-link {
   font-weight: 400;
   color: var(--link-col);
-  margin-bottom: 9px;
+  
 }
 
 /* PORTFOLIO  */
